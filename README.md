@@ -17,7 +17,14 @@ This is a complete eCommerce storefront app built with Medusa.js, Next.js, and S
 
 # Preview
  
- In processing....
+## Home page
+ ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1666499036779/Rfj5wRzqR.png)
+
+ ## Store page
+  ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1666528787345/Gfajz_5c0.png)
+
+ ## Cart
+  ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1666531684633/2nXDWXbeF.png)
 
 # Set up project
 
