@@ -19,7 +19,8 @@
   --shade: 0 1px 5px rgba(0, 0, 0, 0.2);
 
   /* Nav */
-  --nav-height: 68px;
+  --nav-height: 80px;
+  --primary:#966f33;
 }
 
 * {
@@ -30,9 +31,8 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  overflow-x: hidden;
+  font-family: "Poppins",sans-serif;
+  scroll-behavior: smooth;
 }
 
 a {

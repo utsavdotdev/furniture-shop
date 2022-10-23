@@ -2,16 +2,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: 2rem;
+  padding: 2rem 0rem;
+  width: 100%;
 }
 
 .main {
-  padding: 1rem 5rem;
+  padding: 1rem;
   flex: 1;
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: left;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .listA {
@@ -19,6 +20,7 @@
   flex-direction: column;
   list-style: none;
   margin: 0rem 5rem;
+  align-self: flex-start;
 }
 .listA h4 {
   margin: 0;
@@ -29,7 +31,7 @@
   padding-top: 0.8rem;
 }
 .listA span a:hover {
-  color: #56fbb1;
+  text-decoration: underline;
 }
 .listA li {
   margin: 0;
@@ -37,7 +39,7 @@
 }
 
 .listA li:hover {
-  color: #56fbb1;
+  text-decoration: underline;
 }
 
 @media (max-width: 1090px) {

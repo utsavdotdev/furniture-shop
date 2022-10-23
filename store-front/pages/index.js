@@ -25,8 +25,15 @@ export default function Home({ products }) {
               resonable prize
             </p>
             <div className={styles.btn_con}>
-              <button className={styles.explore}>Let's explore</button>
-              <button className={styles.github}>GitHub</button>
+              <a href="#storeSection">
+                <button className={styles.explore}>Let's explore</button>
+              </a>
+              <a
+                href="https://github.com/utsavbhattarai007/devshop"
+                target={"_blank"}
+              >
+                <button className={styles.github}>GitHub</button>
+              </a>
             </div>
           </div>
           <div className={styles.right}>
